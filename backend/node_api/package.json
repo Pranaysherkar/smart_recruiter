@@ -1,0 +1,16 @@
+{
+  "name": "smart-recruiter-node-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 

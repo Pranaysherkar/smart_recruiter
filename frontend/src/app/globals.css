@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f7ff;
+  --foreground: #111;
+  --primary: #fe5f55;
+  --secondary: #577399;
+  --accent: #bdd5ea;
+  --card-bg: #ffffff;
+  --button-bg: #fe5f55;
+  --button-text: #ffffff;
+  --button-hover-bg: #495867;
+  --button-hover-text: #f7f7ff;
+  --highlight: #bdd5ea;
+  --button-upload-bg: #577399;
+  --button-upload-text: #ffff;
+}
+
+[data-theme="dark"] {
+  --background: #171a23;
+  --foreground: #f7f7ff;
+  --primary: #fe5f55;
+  --secondary: #bdd5ea;
+  --accent: #577399;
+  --card-bg: #23263a;
+  --button-bg: #495867;
+  --button-text: #f7f7ff;
+  --button-hover-bg: #fe5f55;
+  --button-hover-text: #ffffff;
+  --highlight: #fe5f55;
+  --button-upload-bg: #bdd5ea;
+  --button-upload-text: #495867;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.premium-btn {
+  background: var(--button-bg);
+  color: var(--button-text);
+  border-radius: 0.75rem;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+.premium-btn:hover {
+  background: var(--button-hover-bg);
+  color: var(--button-hover-text);
+}
